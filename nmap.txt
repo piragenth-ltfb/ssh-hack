@@ -1,0 +1,29 @@
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-08-20 00:09 +0530
+Nmap scan report for 192.168.1.1
+Host is up (0.012s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 4C:6E:6E:97:15:F6 (Comnect Technology)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.0090s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: B0:83:FE:75:C7:1E (Dell)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.12s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 9C:29:76:C3:20:26 (Intel Corporate)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.00015s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 256 IP addresses (7 hosts up) scanned in 13.33 seconds
