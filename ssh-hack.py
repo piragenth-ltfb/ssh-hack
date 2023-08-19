@@ -1,7 +1,9 @@
 import os
+
+host = int(input("Enter your Host (host/cldr num):"))
 one = '| grep "/open" '
 two = "| awk '{ print $2 }'"
-os.system(f"nmap --open -p 22 192.168.1.1/24 -oG - {one} {two}  >> ssh.txt")
+os.system(f"nmap --open -p 22 {host} -oG - {one} {two}  >> ssh.txt")
 
 ssh = open("ssh.txt",'r')
 for account in ssh:
